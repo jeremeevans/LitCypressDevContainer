@@ -1,2 +1,3 @@
-# LitCypressDevContainer
-Base project for building a Lit web component with Cypress tests inside a Visual Studio Code development container
+# LitDevContainer
+
+Base project for building a Lit web component inside a Visual Studio Code development container

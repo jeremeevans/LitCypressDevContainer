@@ -1,7 +1,7 @@
 {
-  "name": "litcypressdevcontainer",
+  "name": "litdevcontainer",
   "version": "1.0.0",
-  "description": "Base project for building a Lit web component with Cypress tests inside a Visual Studio Code development container",
+  "description": "Base project for building a Lit web component inside a Visual Studio Code development container",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript",
@@ -10,20 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeremeevans/LitCypressDevContainer.git"
+    "url": "git+https://github.com/jeremeevans/LitDevContainer.git"
   },
   "keywords": [
     "Lit",
-    "Cypress",
     "Development",
     "Container"
   ],
   "author": "Jereme Evans",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jeremeevans/LitCypressDevContainer/issues"
+    "url": "https://github.com/jeremeevans/LitDevContainer/issues"
   },
-  "homepage": "https://github.com/jeremeevans/LitCypressDevContainer#readme",
+  "homepage": "https://github.com/jeremeevans/LitDevContainer#readme",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.3.4",
