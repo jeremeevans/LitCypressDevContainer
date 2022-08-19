@@ -11,7 +11,7 @@ Visual Studio Code developement container. These are my requirements:
 1. Write tests to ensure things work as expected.
 
 This template will create a project that runs in a container, uses [LitElement](https://lit.dev/) to
-create a web component, and tests the component with [Cypress](https://www.cypress.io/).
+create a web component, [Sass](https://sass-lang.com/) to style it, and [Cypress](https://www.cypress.io/) to test it.
 
 ## Get started
 
