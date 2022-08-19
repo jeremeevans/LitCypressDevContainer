@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rimraf dist && rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript",
     "build:watch": "rimraf dist && rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript --watch",
-    "start": "web-dev-server --node-resolve --watch",
+    "start": "web-dev-server --watch",
     "dev": "npm run start & npm run build:watch",
     "cy:run": "cypress run",
     "test": "start-server-and-test start http://localhost:8000 cy:run"
