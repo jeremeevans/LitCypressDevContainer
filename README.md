@@ -1,7 +1,7 @@
 # LitElement Dev Container
 
 When I work on a project, I like to
-[work in a container](https://jeremeevans.com/why-you-should-use-development-containers).
+[work in a container](https://www.jeremeevans.com/articles/why-you-should-write-code-in-containers/).
 This repository serves as a template for developing LitElement web components in a
 Visual Studio Code developement container. These are my requirements:
 
